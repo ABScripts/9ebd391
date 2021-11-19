@@ -1,0 +1,1185 @@
+* dc40665 (origin/bullseye, origin/HEAD, bullseye) Add 43455 firmware 7.45.241 and clm_blob
+* 9e2fe4f Add 43438 firmware 7.45.98.118 + external clm_blob
+* b3eec61 1:20210315-3+rpt3 release
+* a12f538 Revert "Switch to a new official Cypress 43455 clm_blob"
+* dcea7a3 Add Raspberry Pi WLAN firmware
+* 27382af Prepare to release firmware-nonfree (20210315-3).
+* 0ed9ebd debian/changelog: Add bug number for the missing modalias information
+* f5bad29 Update module info from linux 5.10.46-2 on amd64
+* b5c15f2 Update to linux-support 5.10.0-8
+*   54c2dee Merge branch 'modalias' into 'master'
+|\  
+| * ddf6782 debian/bin/gencontrol.py: Include modaliases in AppStream metadata
+| * 9422d00 Add module info from linux 5.10.28-1 on amd64
+| * 5d76644 debian/bin: Add update-modinfo script to maintain cache of module info
+| * 2c4fc16 Update to linux-support 5.10.0-6
+|/  
+* b9a8852 prepare 20210315-2
+* f142811 brcm80211: add more NVRAMs
+* 675ff58 add another missing brcm firmware
+* b02f516 add unrelated report
+* ea142ae fixup broken symlink across packages with dependency
+* 78b28ad changelog entry
+* 77e9102 brcm: add missing nvram files
+* 02cfb43 release 20210315-1
+* 97a3a41 prepare 20210315-1
+* 40c1e1d prepare 20210315-1~exp1
+* 6ff5d97 add other bug closure
+* a7b86b5 add missing AMD green sardine asd firmware
+* fe4808d add silabs usb wifi firmware
+* a1e897b add mediatek bluetooth firmware
+* f8a2ad8 add RTL8852A firmware
+* 004dc14 add amd green sardine firmwares
+* 0b28276 axe merged patches
+* 6b7e178 more iwlwifi
+* b362e11 more iwlwifi
+* 8b7d759 more iwlwifi firmwares
+* 4d96b2b add new iwlwifi firmware
+* 067046d changelog: update to 20210315-1
+* 239fec0 changelog: update and prepare 20210208-4
+* a301f1f really support BananaPi M2 ultra and BananaPi M3
+* 2af720e add two more upstream patches
+* 987d064 minor formulation fix
+* b105d85 add Raspberry Pi 4B fix
+* 7a50e0e bump to 5.10.0-4
+* ed66029 changelog: entry
+* f54fe32 really add the mediatek mt8183 firmware
+* 38965e5 open up 20210208-4
+* 03cd6b0 prepare 20210208-3
+* 837303d changelog: add ack
+* 7de9313 changelog: update
+* a84af25 last missing mediatek firmware
+* 1a485e0 missing mediatek
+* 27b87ee misc: add missing mediatek firmware
+* 697f38c changelog: update
+* 539b69f one more missing
+* cff383c third missing bt firmware
+* a7691fc add another QCA6174 bt firmware
+* 0da0f1f add QCA9377 firmware
+* 5e46034 changelog: add entries for latest changes
+* 720ac22 misc-nonfree: add missing intel ipu3 firmware
+* 74b45ac add another iwlwifi firmware
+* cca5c8f add missing iwlwifi firmware
+* 71dc14f add byt audio firmware
+* 30dcec6 add missing Cannonlake audio firmware
+* 0d11200 misc-nonfree: add the relevant configs
+* 294c4f7 changelog: 20210208-2
+* b42c406 prepare minimal 20210208-2
+* 22fe4c9 misc-nonfree: add another link too
+* 8b5d950 changelog entry for the missing symlinks
+* 202d656 brcm80211: add symlinks for BananaPi 2 Ultra & 3
+* 53779c7 brcm80211: add missing symlinks by hand
+* 475f6ef misc-nonfree: add missing symlinks by hand..
+* 410cb34 mention bug nr, even if not closed
+* bf4663d add brcmfmac43430-sdio.AP6212.txt config
+* 7db3bb0 defines sort..
+* 88a590c prepare 20210208-1
+* 6ab2f7a update to latest linux support
+* 0ac9e6e changelog: axe entry of non shipped entity
+* b86b855 misc-nonfree: add mediatek MT7921 firmwares
+* 1a05413 misc-nonfree: add Intel "Adler Lake" DMC firmware
+* fc85930 misc-nonfree: add DG1 HuC i915
+* f845f1a misc-nonfree: add DG1 GuC i915
+* b80622e qcom-soc: add VPU-1.0 firmware files
+* c1bdb6d qcom-soc: add coressponding compute dsp firmware
+* f15e3a1 qcom-soc: add the corresponding audio firmwares
+* c154329 qcom-soc: add Adreno a650 firmwares
+* fa7ac08 realtek: add more added firmwares
+* 844b164 readd relevant changelog entries
+* 0514271 changelog: update to 20210208
+* 2b0d5f1 add all the shippable realtek fw + confs
+* 1520ce6 add rtl8852au to the file list
+* 9baf4d5 realtek sort bt firmware files for better overview
+* cb55d03 brcm80211: add nvram for 96boards Rock960
+* 9c597cb axe removed firmwares that have corresponding new cypress ones
+* 8cc22c6 add RTL8852A firmware and config
+* 0ef49ce prepare latest upstream for upcoming release
+* 3ca269b start 20201218-4
+* 56affc0 prepare 20201218-3
+* dab4007 firmware-misc-nonfree: fixup lintian
+* b34915d realtek: fix up desc
+* d4825ae ship another realtek config
+* df8cb57 add more realtek wifi firmware
+* 4b5ab57 add rtl8822cu_config
+* 33187c9 prepare 20201218-2
+* a5826c5 firmware-realtek: add RTW8723D firmware
+* 09f2927 changelog: prepare 20201218-1
+* f757dd0 5.10.0-1: update build dep
+* 2b38a2a changelog: axe stuff that is not shipped
+* 02399e2 misc-nonfree: add lontium bridge firmware
+* 9e49815 firmware-iwlwifi: add newer Intel bluetooth firmware
+* ef9fcb6 misc-nonfree: add i915 GuC firmwares
+* 084ec9d amd-graphics: add AMD sienna cichlid firmware
+* ba6be2b prepare 20201218-1
+* 77048ea prepare 20201118-1 release
+* 395f3c1 brcm80211: fixup desc
+* 08a612e misc-nonfree: fixup
+* 675232e ti-connectivity: fixup
+* e0d5e2b atheros: fixup
+* d935a74 atheros: add QCA6390 firmwares
+* a526a6e changelog: add relevant ath11k bug closure
+* 6daff60 atheros: add QCA6390 firmware
+* 4742f98 atheros: add relevant files for QCA6390 bluetooth
+* 30dd276 atheros add IPQ6018 firmwares
+* 519e5a3 add IPQ8074 board-2.bin firmware
+* 80a47c6 atheros: add IPQ8074 firmwares
+* af65fe5 add Qualcomm Atheros IPQ6018 802.11ax firmware
+* 67c267d atheros: update versions correspondingly
+* 34bb9ef atheros: add firmware-sdio-6.bin
+* 3fba37f ti-connectivity: vdpma path change..
+* 1a03803 prepare 20201118-1
+* 3766024 prepare 20201022-1 release
+* 290635d refix ti path
+* 68fdf18 update file path
+* c860339 iwlifi: fix dups
+* 0a8d3e3 ti-connectivity: fix path
+* 95b0b5a ti-connectivity: add VPDMA firmware
+* ef44e98 misc: add mediatek MT8173 VPU firmware
+* 22ef7e9 brcm80211: add all the new cypress files
+* a87bf7a iwlwifi: add Intel Bluetooth AX201
+* 2980feb iwlwifi: update versions of 3168, 7265D, 8000C and 8265 firmwares
+* 4ca19df iwlwifi: add more missing (CC-A0) firmwares
+* 1a9648c iwlwifi: add missing (CC-A0) firmwares
+* f83a42c iwlwifi: add missing (QUZ-A-JF-B) firmwares
+* 845d95d iwlwifi: add missing (QUZ-A-HR-B) firmwares
+* f02c1ef iwlwifi: add missing (QU-C-JF-B) firmwares
+* 6f6eb6b iwlwifi: add missing (QU-C-HR-B) firmwares
+* f47ffb4 iwlwifi: add missing (QU-B-JF-B) firmwares
+* a867670 iwlwifi: add missing (QU-B-HR-B) firmwares
+* ce4696b add newer iwlwifi firmwares
+* 809b50e fix up previous miss
+* f5d8018 add intel ice firmare to misc-nonfree
+* a2c9c77 add renoir TA firmware
+* ea87bf9 add Intel DG1 DMC firmware
+* d254ddb atheros: add firmware files for BT chip wcn3991
+* 801220a atheros: add SDIO firmware for QCA9377 WiFi
+* decaace update to 5.9.0-5 linux-support
+* f7291f7 changelog: first minor cleanup
+* f5d8a00 update to 5.9.0-1 linux support
+* 133c5f3 prepare for 20201022-1
+* 5e3b31c axe various trailing whitespaces
+* 4f82317 prepare to release 20200918-1
+* e56dcfd Revert "add newer Intel 9160/9260 version 16 rev 2"
+* 6820259 axe microcode entry for now
+* 23b70a9 amd graphics: add navi12 firmware
+* a8b6ee5 axe unused changelog entry
+* e2493bf add newer Intel 9160/9260 version 16 rev 2
+* ed569ed update to latest linux support version
+* a15fed1 prepare 20200918
+* 916c280 prepare to release 20200817-1
+* 42e22de update build dep
+*   c2fcf26 Merge branch 'qcom_soc_venus' into 'master'
+|\  
+| * bc69423 debian: Add venus 5.2/5.4 firmware in qcom-soc package
+* | 5244974 add RTL8822CS firmware
+* | 46d6f5c first rocketlake
+* | 9c6e773 other TGL firmware
+* | bde4041 add newer TGL firmware
+* | 7181a98 changelog: update
+|/  
+* 36e0a5a add rtw88 RTL8821C firmware
+* 533cc76 prepare 20200817
+* 76c2c31 prepare to release 20200721-1
+* 950ad76 add more Mediathek MT7663 updated firmwares
+* 2643a2c add firmware for MT7615E
+* fe9e1c9 axe changelog entry
+* 0eb9ca0 add RTL8152/RTL8153 firmwares
+* 073881d add AX200 files
+* 683f9a4 axe changelog entry for excluded item
+* 4c3864e add various newer AX201 Bluetooth firmwares
+* 29bc068 add QCA6390 firmware
+* 8b9f915 amdgpu add UVD firmware for SI
+* ec03db0 add Qualcomm WCN3991 Bluetooth
+* 0638e8e add RTL8822C WoW firmware
+*   f8a565e Merge branch 'gpd-pocket' into 'master'
+|\  
+| * 1a8eb45 brcm80211: add GPD Pocket and Win UMPC config
+|/  
+* 943c8ec changelog: start with 20200721 entries
+* b66936a prepare to release 20200619-1
+* 7cd8caf firmware deal with new mt7663
+* 4e687f8 misc-nonfree: add mediathek MT7915E firmware
+* 1607c99 amdgpu: add vega20 TA firmware
+* 5f5249c qcom-soc: deal with #966025 upgrade error
+* 457a8e2 changelog: no Mellanox fw shipped for now
+* 53193f3 realtek: add RTL8125B fw
+* 5565267 atheros: add Bluetooth firmware for QCA9377
+* 2da3e54 changelog: fwd port merge entries
+*   e923476 Merge branch 'sdm845_wlan_adreno' into 'master'
+|\  
+| * 13e5825 debian/changelog: Update adding qcom-soc fixes
+| * 15a3d26 debian/config/qcom-soc: Add missing _base to fw files for pkg desc
+| * 74ef3af debian/config/qcom-soc: Add SDM845 Adreno 630/WLAN DSP SDM845 firmware
+|/  
+* 8764f9a add Prestera ASIC firmware
+* ddc07d3 add rtl8168fp-3
+* d9cc41f Add rtl_nic/rtl8125a-3.fw
+* 4133234 merge in by hand salsa merge request by lucas
+* 7807cb4 changelog: add respective bug
+* bafebe3 changelog: first go at upstream entries
+* d255fb2 iwlwifi: add latest
+* ce57c03 update to latest cxgb4 firmware
+* 06576d6 prepare for latest 20200619 upstream
+* 33ecb68 prepare to release 20200421-1
+*   6f280fc Merge branch 'pi4' into 'master'
+|\  
+| * 5e0cc1e brcm80211: add Raspberry Pi board configs (closes #964028)
+|/  
+* 8c60005 README.source: add upstream git and run instructions
+* b57db19 debian: update to latest support
+* 562cf09 netxen: Include firmware description and version in package description
+* 2e2ce77 netronome: Add Agilio CX and LX firmware supporting BPF or SR-IOV
+* 0d04868 misc-nonfree: Add Nvidia TU102/TU104/TU106 and TU116/TU117 signed firmware
+* 2f1bb27 misc-nonfree: Add Nvidia Tegra 186 and 194 XHCI firmware
+* 0c5f8d5 misc-nonfree: Update version number for Nvidia Tegra 210 XHCI firmware
+* a13a6bd misc-nonfree: Add Intel graphics firmware for various CPUs/GPUs
+* 0b4b2cc misc-nonfree: Add Intel "Icelake" DMC firmware version 1.09
+* 492e8ec misc-nonfree: Add new versions of Intel HuC firmware for several CPUs/GPUs
+* 5cfb369 debian/config/misc-nonfree/defines: Fix ordering of i915/cnl_dmc_ver1_07.bin
+* eb48b73 debian/config/defines: Exclude dpaa2 firmware
+* 629189f debian/config/defines: Exclude wilc1000 firmware
+* 823c538 amd-graphics: Add "Raven refresh" RLC firmware
+* 8a24726 amd-graphics: Add "Picasso", "Raven", and "Raven 2" TA firmware
+* 05a65b1 amd-graphics: Add "Navi 10", "Navi 14", and "Renoir" firmware
+* f31b026 bnx2x: Include firmware version 7.13.15.0 (for Linux 5.5 onward)
+* a0e13f8 libertas: Add NXP 88W8977-SDIO and 88W8997-SDIO firmware
+* 1c08cc1 misc-nonfree: Add Broadcom/Cypress Bluetooth firmware for HTC Vive
+* bbe31d3 copyright: Fix invalid license names
+* c08c000 debian/changelog: Clean up upstream changes further
+* 0a94bb8 Update to 20200421
+*   9cdde50 Merge branch 'qcom_sdm845_wifi' into 'master'
+|\  
+| * b65f4f4 debian/changelog: Note the binary packages affected by upstream changes
+| * fa4fc22 debian/changelog: Delete upstream changes obsoleted by later changes
+| * ce382ea debian/changelog: Delete upstream changes for unpackaged files
+| * c6ff968 Merge firmware-qcom-media into firmware-qcom-soc, leaving a transitional package
+| * 7dde888 Rename firmware-qcom-sdm845 to firmware-qcom-soc
+| * ddd89bd debian/rules, debian/bin/gencontrol.py: Run copy-firmware.sh to create symlinks
+| * 1ce60df Update to linux-support 5.6.0-1
+| * a8e3987 debian/changelog: List the rest of Aníbal Limón's changes
+| * ca8375e debian/changelog: Combine the two unreleased entries
+| * 06847d7 debian/config; Add Adreno 630 firmware to qcom-media
+| * 9b6da6d debian/config: Add qcom-sdm845 firmware package
+| * 6a913e2 debian/config: atheros ath10k add WCN3990 firmware
+| * aeb9d9b Update to linux-support 4.19.0-6
+| * a0fe5e1 debian: Bump to 20200122-1
+| * 63fd7d9 debian/config: Update cxgb4 firmware versions in misc-nonfree
+* | 5432d90 debian/config/iwlwifi: Delete unused ABI 14 firmware
+* | 7d5d1fc Drop firmware-{adi,ralink} transitional packages
+* | db61e95 Delete unused udeb template
+* | aec4b6f debian/changelog: Note Hideki Yamane's change
+|/  
+* 0c44d12 Ignore __pycache__ directories
+* f09e034 debian/rules: Run gencontrol.py when any template is changed
+* af87b0b debian/rules: Run gencontrol.py when source name or version changes
+* 9b12d24 debian/rules: Finish adding build-arch and build-indep targets
+* 911760e debian/rules: Implement build-arch and build-indep targets
+*   a323889 Merge branch 'henrich/bug931930' into 'master'
+|\  
+| * cd83399 add missing firmware file to i915 (Closes: #931930)
+|/  
+* c11789c realtek: Add firmware for Realtek 8822BE/8822CE devices
+* 2eb1425 debian/changelog: Note the last change, which really closes #928672
+*   a27209d Merge branch 'add-missing-file' into 'master'
+|\  
+| * 0c77af5 misc-nonfree: Include nvidia/gv100/acr/ucode_load.bin
+|/  
+* d7d8115 Prepare to release firmware-nonfree (20190717-1).
+* 10a4509 cavium: Add Cavium CNN55XX asymmetric crypto firmware version 01
+* 2ffc9a6 misc-nonfree: Add new Intel and Nvidia GPU firmware
+* 515b139 iwlwifi: Add new firmware
+* 67f7a2a Update to 20190717
+* 3efd9da debian/bin/genorig.py: Change to use upstream tagged versions
+* 9e4dc79 debian/bin/release-update: Change to use upstream tagged versions
+* 0e5a913 debian/bin/release-update: Delete stray '"' in usage message
+* c5fa4b1 misc-nonfree: Add GV100 signed firmwares (Closes: #928672)
+* 02b7eb8 atheros: Revert change of QCA9377 rev 1.0 firmware in 20180518-1
+* 0cccd51 Prepare to release firmware-nonfree (20190502-1).
+* d8cba57 atheros: Include "Qualcomm" in the package short description
+* 717a249 realtek: Add Realtek RTL8822CU Bluetooth firmware
+* d0d717a atheros: Add Qualcomm WCN3990 and Qualcomm Atheros QCA6174 Bluetooth firmware
+* d0ddbd0 netronome: Add Agilio LX flower firmware
+* e4a13c4 iwlwifi: Add Intel Wireless 22161 Bluetooth configurations and firmware
+* c77e401 Update to linux-support 4.19.0-5
+* 7f6ed94 misc-nonfree: Fix Chelsio firmware version numbers
+* 7e6f41d Fix typo in commit 35b3a1d51876
+* 35b3a1d misc-nonfree: Add new Intel GuC and HuC firmware
+* 5a67dcf amd-graphics: Add "Vega 20" firmware (Closes: #927286)
+* eb25685 atheros: Add Qualcomm Atheros QCA9377 rev 1.0 firmware
+* 349fdf3 cavium, netronome: Trigger update-initramfs when installed
+* d794a9c Update to commit 92e17d0dd2437140fab044ae62baf69b35d7d1fa dated 2019-05-02
+* e59d38f amd-graphics: Trigger update-initramfs when installed (Closes: #928510)
+* a794cf0 Use dpkg-trigger directly to trigger update-initramfs
+*   6bdc941 Merge branch 'bug919452' into 'master'
+|\  
+| * ef392a8 Add firmware for various MediaTek chips
+|/  
+* ba674a5 debian/*.metainfo.xml: Replace hyphens with underscores in id
+* 9ebd391 debian/*.metainfo.xml: Remove line breaks from summary
+| * 54ffdd6 (origin/buster) 1:20190114-2+rpt4 release
+| * bda9207 Add 43436S firmware
+| * e1c6815 1:20190114-2+rpt3 release
+| * 42752f2 Revert "Switch to a new official Cypress 43455 clm_blob"
+| * 8437c73 1:20190114-2+rpt2 release
+| * d27b9f1 Switch to a new official Cypress 43455 clm_blob
+| *   00de319 Merge tag 'debian/20190114-2'
+| |\  
+| | * 01527bb Prepare to release firmware-nonfree (20190114-2).
+| | * 62ca6a1 misc-nonfree: Add GV100 signed firmwares (Closes: #928672)
+| | * 330d695 atheros: Revert change of QCA9377 rev 1.0 firmware in 20180518-1
+| | * abd0a92 realtek: Add Realtek RTL8822CU Bluetooth firmware
+| | * 45fa69f atheros: Add Qualcomm Atheros QCA9377 rev 1.0 firmware
+| | * 9a60213 cavium, netronome: Trigger update-initramfs when installed
+| | * 4e941b6 amd-graphics: Trigger update-initramfs when installed (Closes: #928510)
+| | * e491d64 Add firmware for various MediaTek chips
+| | * b76ec88 Update to linux-support 4.19.0-5
+| |/  
+|/|   
+* | 911ad1b Prepare to release firmware-nonfree (20190114-1).
+* | 90538b0 debian/source/options: Delete redundant compression setting; satisfy lintian
+* | 75628f6 amd-graphics: Fix quoting in descriptions of Vega M firmware
+* | 7423e6d amd-graphics: Add firmware for older chips supported by amdgpu to /l/f/amdgpu
+* | c2fa00e amd-graphics: Add additional firmware for Radeon HD 7800 series, "Polaris", and "Raven" chips
+* | 3d29393 amd-graphics: Add firmware for "Picasso", "Raven 2", and "Vega 12" chips
+* | a37a54a debian/config/amd-graphics/defines: Sort file list
+* | 84b11aa debian/README.source: Document the genorig.py --commit option
+* |   cc6fc5d Merge branch 'patch-1' into 'master'
+|\ \  
+| * | 992e940 Add two more TI Bluetooth firmwares
+* | | 94047f6 Update to commit bc656509a3cfb60fcdfc905d7e23c18873e4e7b9 dated 2019-01-14
+* | | 195b27f Clean up the open debian/changelog entry
+|/ /  
+* | 3ffdd9a Update to linux-support 4.19.0-1
+* | 41ccc9e Update to commit 0f22c8527439eaaf5c3fcf87b31c89445b6fa84d dated 2018-12-18
+* | 545d31d firmware-misc-nonfree: remove lintian override, unused
+* | 62002cd firmware-atheros: remove lintian override, unused
+* | ad7404e firmware-linux: fix typo in short description template
+* | 348efba add colon to Closes directives where it's missing
+* | 150223e Updated to commit 1baa34868b2c0a004dc595b20678145e3fff83e7, dated 2018-10-26
+* | 4a2cc3d Update to commit d87753369b82c5f362250c197d04a1e1ef5bf698, dated 2018-10-18
+* | 15626d2 Add Radeon HD 7800 series firmware to /lib/firmware/amdgpu (Closes #908632)
+* | 51501a9 Update to commit 7c81f23ad903f72e87e2102d8f52408305c0f7a2, dated 2018-10-01
+* | 37ded14 Update to commit 44d4fca9922a252a0bd81f6307bcc072a78da54a dated 2018-09-13
+* | 9e9aa36 amd-graphics: Add AMD Vega M firmware (Closes #907598)
+* | 00075b8 Exclude Cavium LiquidIO 23xx vswitch firmware
+* | 87e75ca Prepare to release firmware-nonfree (20180825-1).
+* | 8f26225 atheros: Add Wil62x0 default board parameters and firmware for use with the wil6210 driver
+* | 8cdb52e intel-sound: Add Intel "Kabylake" SST DSP firmware version 9.21.00.3420_163
+* | 333c9f9 Exclude obsolete cxgb4 firmware
+* | bcbcce2 Properly record update to mrvl/usb8801_uapsta.bin
+* | 7f9e064 Update to commit fea76a04f25fd0a217c0d566ff5ff8f23ad3e648 dated 2018-08-25
+* | 3ad7943 iwlwifi: Use "release" version strings for all Bluetooth firmware files
+* | e109962 README.source: Document the need to set PYTHONPATH for release-update
+* | d7afcb5 debian/changelog: Clean up upstream change list
+* | 87387d2 Update to linux-support 4.17.0-3
+* | bb01ddc Add back firmware-{adi,ralink} as transitional packages (Closes: #907320)
+* | 6e390a5 Rename "meta" stuff in preparation for adding transitional packages
+* | efaeeff gencontrol.py: Delete redundant setting of uri for meta-packages
+* |   596e80f Merge branch 'master' into 'master'
+|\ \  
+| * | c20a18e Update to commit b01151bc9e4e4238bdf18ab28561e1c05a35e76c, dated 2018-07-27
+| * | c0232b9 debian/README.source: Add a note for updating the packaging rules
+| * | 99ae8e7 Add a new script for generating debian changelog
+|/ /  
+* | 2f7f76d Prepare to release firmware-nonfree (20180518-1).
+* | 4856e64 debian/changelog: Note more bugs closed by adding firmware to packges
+* | 1545109 Override lintian errors for firmware-{netronome,qcom-media}
+* | 6043d5a Update to linux-support 4.17.0-1
+* | 5a62757 Ignore debian/.debhelper directory
+* | 3d295c2 ivtv: Change Homepage field to archive.org version
+* | d424b5b misc-nonfree: Fill in copyright and license text for imx/sdma/*
+* | 2c1d75b debian/README.source: Update link to configparser documentation
+* | e8bde53 qcom-media: Remove references to Qualcomm Venus 5.2 firmware
+* | 2404961 Set a default Homepage for all packages other than firmware-{ivtv,ipw2x00}
+* | f971253 ivtv: Remove Homepage field, as the old URL is now domain-squatted
+* | ea4eece misc-nonfree: Fill in copyright for nvidia/*
+* | a3aa810 Exclude Mellanox switch firmware
+* | c3ef95f Add firmware-qcom-media package containing Qualcomm graphics/video firmware
+* | 1acf3d7 Add firmware-netronome package containing Netronome network adapter firmware
+* | 7ce33c0 misc-nonfree: Rockchip cdn DisplayPort controller firmware
+* | 32db4b8 Exclude mwlwifi firmware
+* | b7e15e6 misc-nonfree: Add new Nvidia GPU firmware
+* | d6e17be Revert "Add per-file copy flag, allowing replacement of upstream symlinks with copies"
+* | d11a929 Revert "misc-nonfree: Replace Nvidia firmware symlinks with copies"
+* | 2bbd93c misc-nonfree: Add new Intel GPU firmware
+* | 7854f76 cavium: Add Cavium LiquidIO 23xx vswitch firmware
+* | ffa9e1b intel-sound: Add Intel "Cannonlake" SST DSP firmware
+* | 509f8b1 Exclude old Intel SST DSP firmware
+* | cd2b06f realtek: Add Realtek RTL8723D and RTL8821C Bluetooth configurations and firmware
+* | b7a1141 iwlwifi: Add Intel Wireless 9160/9260/9460/9650 Bluetooth configurations and firmware
+* | e29af34 realtek: Add Realtek RTL8723DE and RTL8822BE firmware
+* | bc7def0 debian/changelog: Add my name above my changes
+* |   aa5b32b Merge branch 'master' into 'master'
+|\ \  
+| * | f71b449 misc-nonfree: Add DMC firmware for "Skylake" v1.27 (Closes: #900871)
+|/ /  
+* |   ea53726 Merge branch 'master' into 'master'
+|\ \  
+| * | 78905bc Add SDMA firmware for Freescale i.MX6/7 SoCs (Closes: #900266)
+|/ /  
+* |   5bebd9c Merge branch 'master' into 'master'
+|\ \  
+| * | e841500 misc-nonfree: Add DMC firmware for "Kabylake" v1.04 (Closes: #898267)
+|/ /  
+* | d0af357 brcm80211: Add Cypress to the package description
+* | 16c144f brcm80211: Add Cypress CYW4373 firmware
+* | 877aec6 brcm80211: Add Broadcom BCM43430 rev 0 firmware
+* | bcd1a37 qlogic: Remove old QLogic QL4500 firmware versions not used in any active Debian release
+* | 5852f16 qlogic: Add QLogic QL45000 series firmware versions 8.33.1.0 and 8.33.11.0
+* | 85f2564 iwlwifi: Remove old firmware versions not used in any active Debian release
+* | 60ddbd0 iwlwifi: Update driver list in package description
+* | e9dcab4 iwlwifi: Add Intel Wireless 9000 and 9260 firmware
+* | 78e6ebb iwlwifi: Add Intel Wireless 8000C and 8265 firmware (ABI 36)
+* | d6b2b71 amd-graphics: Add "Raven" firmware (Closes: #891042)
+* | 578b287 amd-graphics: Add "Polaris" new CE, ME, MEC, MEC2, PFP firmware
+* | 8bc53d6 amd-graphics: Add basic descriptions of all files
+* | f9833b6 Update to commit 2a9b2cf50fb32e36e4fc1586c2f6f1421913b553, dated 2018-05-18
+* | 157e87c debian/control: Point Vcs URLs to Salsa
+* | e79b4fa debian/bin/gencontrol.py: Sort list of symlink names for each blob
+* | a552ef4 debian/bin/gencontrol.py: Set encoding to UTF-8 globally
+* | c014f6b Prepare to release firmware-nonfree (20170823-1).
+* | fdbd890 Update Standards-Version to 4.0.1
+* | 9505ad0 Move AppStream metainfo to /usr/share/metainfo
+* | 2d4c54a realtek: Don't include Realtek RTL8723BS wifi AP+WoWLAN firmware
+* | 484a199 realtek: Include more new firmware
+* | 289626c realtek: Include Realtek RTL8723BS firmware
+* | 8319e43 qlogic: Include QLogic QL45000 series firmware versions 8.15.3.0, 8.20.0.0
+* | ec29241 misc-nonfree: Include new Nvidia GPU firmware
+* | cb21648 misc-nonfree: Include MediaTek MT76x2 firmware and ROM patch
+* | 55d1c81 libertas: Include Avastar 88W8997-PCIe and 88W8997-USB firmware
+* | 296467f iwlwifi: Include new firmware
+* | ae3838b intel-sound: Include Intel "Geminilake" SST DSP firmware
+* | 856cf0f misc-nonfree: Include Intel "Broxton", "Kabylake", "Skylake" HuC firmware
+* | 09e7917 misc-nonfree: Include Chelsio T6 firmware
+* | 53ab640 cavium: Include Cavium CNN55XX and LiquidIO 23xx firmware
+* | 14e517f brcm80211: Include Broadcom BCM4356-SDIO and BCM4358 firmware
+* | b2f7c96 Exclude more atusb firmware that is under GPL but with source elsewhere
+* | e740512 atheros: Include Qualcomm Atheros QCA6174 rev 3.0 firmware
+* | ea99ebe atheros: Update copyright information for ath10k/QCA*/hw*/firmware-*.bin
+* | 4ce8149 amd-graphics: Include new firmware
+* | 305506a Update to commit b78acc9f0e26459ce2bb586bb00d28bcc14b2c26, dated 2017-08-23
+* | 3d94e8c atheros: Fix Qualcomm Atheros QCA9887 and QCA9888 file descriptions
+* | c783f85 iwlwifi: Fix Intel Wireless 8265 Bluetooth file descriptions
+* | b10deab misc-nonfree: Update Intel OPA Gen1 firmware type and version information
+* | 292b1b4 Update to linux-support 4.12.0-1
+| * 83938f7 1:20190114-1+rpt11 release
+| * f713a60 Update CYW43455 firmware
+| * b66ab26 1:20190114-1+rpt10 release
+| * 1f85a05 Use BCM43456 clm_blob on CYW43455
+| * ef0b770 New clm_blob for BCM43456
+| * d98d989 New clm_blob for CYW43455
+| * 5113681 1:20190114-1+rpt9 release
+| * e570950 Add BCM43436 firmware
+| * 98e8157 (HEAD) 1:20190114-1+rpt8 release
+| * 7533cd1 Updated CYW43455 firmware
+| * 2f6015e 1:20190114-1+rpt7 release
+| * d3f5438 Revert "Updated CYW43455 firmware"
+| * 147e047 Updated CYW43455 firmware
+| * b7e706b Add BCM43456 firmware
+| * 616fc2d 1:20190114-1+rpt6 release
+| * 14fa638 Refresh sdio-txt-files.patch
+| * 912b9ec Updated coexistence param for post-176 firmware
+| * a04f5e4 1:20190114-1+rpt5 release
+| * ce751a8 kr00k fixes for CYW43438 and CYW43455
+| * 00daf85 Revert "1:20190114-1+rpt3 release"
+| * f0ad1a4 1:20190114-1+rpt4 release
+| * 4ee44af Add latest Cypress WiFi firmware (May 2019)
+| * 130cb86 Buster update
+| * b518de4 Improved brcmfmac BT coexistence parameters
+| * 86e88fb Update brcmfmac43430-sdio.bin
+| * e18f47d Add brcmfmac43455-sdio
+| * f298d4d Revert brcmfmac43430-sdio.bin to previous version
+| * 927fa8e Apply quilt patches
+| * 8d4f382 Update brcmfmac43430-sdio.bin
+| * 04cf7ba Merge in 1:20161130-3+rpi2
+| * cd4184e Extract upstream tarball
+|/  
+* 3efb37b Prepare to release firmware-nonfree (20161130-3).
+* 2c5ac18 Update to linux-support 4.9.0-1
+* 6d98bda Revert "ipw2x00: Downgrade Intel Pro 2200/2915 firwmare to version 3.0"
+* be7e15c amd-graphics: Add radeon/si58_mc.bin (Closes: #856853)
+* b716ef4 iwlwifi: Fix DDC file format for Intel Bluetooth 8260/8265 (Closes: #854907)
+* 855d134 misc-nonfree: Include Intel OPA Gen1 firmware (Closes: #862458)
+* 2bd268c Prepare to release firmware-nonfree (20161130-2).
+* d2135bf misc-nonfree: Replace Nvidia firmware symlinks with copies
+* c734938 Add per-file copy flag, allowing replacement of upstream symlinks with copies
+* cd8e374 debian/lib/python/config.py: Separate schemas for top-level and package config
+* 6b90afc debian/control: Add XS-Autobuild field
+* ee042ca Prepare to release firmware-nonfree (20161130-1).
+* 9b92c11 Update to linux-support 4.8.0-1
+* 5925339 copyright: Fix structured copyright files
+* 1cc621e debian/control: Update Standards-Version to 3.9.8; no changes needed
+* bc22954 Use debhelper compatibility level 9
+* 5302bd3 realtek: Include Realtek RTL8822B Bluetooth config and firmware, RTl8192EU firmare and RTl8723BU firmware
+* 0c79fd1 libertas: Update descriptions of supported chips
+* fd44aaa libertas: Include Marvell Avastar 88W8997 firmware
+* bf55146 Exclude old intel sound DSP firmware versions
+* 21d177c brcm80211: Include Broadcom BCM43430 firmware
+* 1a6f18b misc-nonfree: Include Intel "Kabylake" DMC firmware and Intel "Skylake" GuC firmware version 6.1
+* 6b5d969 atheros: Include Bluetooth firmware for QCA61x4
+* 6651ba3 misc-nonfree: Include Nvidia GM200, GM204, GM206, GM20B and GP100 signed firmware
+* 91e42fd Ensure that target directory for symbolic links exists
+* fb18692 amd-graphics: Include SMC microcode for newer Radeon HD, "Tonga" and "Iceland" chips (Closes: #838858)
+* fd5d861 Update to commit 87941021a622c882b1921df85d6115940a4e568a, dated 2016-11-30
+* 6125db8 Prepare to release firmware-nonfree (20160824-1).
+* 70b0e26 atheros: Suppress lintian warning for reference to GPL where the runtime exception has been used
+* 579a17c intel-sound: Remove copyright notices for newlib linux targets
+* 073f68c intel-sound: Include Intel "Broxton", "Kabylake", and "Skylake" SST DSP firmware
+* b4c141c misc-nonfree: Include MOXA UPort firmware for use with the mxuport and ti_usb_3410_5052 drivers
+* 945543f misc-nonfree: Include Comtrol RocketPort 2 firmware for use with the rp2 driver
+* eff64f1 iwlwifi: Include Intel Wireless 8264 Bluetooth firmware
+* 3422e9a misc-nonfree: Include Terratec H5 DRX-K firmware for use with the em28xx-dvb driver
+* ede39e2 atheros: Include new firmware
+* ed68080 Exclude tlg2300_firmware.bin
+* e23702b ti-connectivity: Include "ti-connectivity/TIInit_7.2.31.bts" for use with the st_drv driver
+* eda3e7e ti-connectivity: Include new TI WL18xx firmware (ABI 4)
+* 232d36b ti-connectivity: Update licence text
+* 85fc627 misc-nonfree: Include Sensoray 2255 firmware for use with the s2255drv driver
+* 9bfec9e brcm80211: Include Broadcom BCM4366 firmware
+* c9381cb qlogic: Include new QLogic QL45000 series firmware
+* 98bdda2 amdgpu: Include new firmware for "Polaris" chips
+* d3c8b69 iwlwifi: Include new firmware
+* 7ed8b85 Update to commit 7534e191256629a20c02e04d5f6d0439c48de80a, dated 2016-08-24
+* bfc8778 Update to linux-support 4.7.0-1
+* 41a4243 Prepare to release firmware-nonfree (20160110-1).
+* 8d6413b Update to linux-support 4.3.0-1
+* 379c72c qlogic: Include QLogic QL45000 series firmware version 8.7.3.0 for use with the qed driver
+* b57eb0b brcm80211: Include Broadcom BCM4350 rev 5+ firmware for use with the brcmfmac driver
+* 420dfb1 misc-nonfree: Include Intel QAT C3xxx and C62x firmware for use with the intel_qat driver
+* d5af42c libertas: Include SD8801 and USB8801 firmware for use with the mwifiex_sdio and mwifiex_usb drivers
+* a0de3be Update to commit 73b07a93ed6c0cdb2f96dae8387b04cbb7b75643, dated 2016-01-10
+* 013238c genorig.py: Make orig tarballs really reproducible
+* 163f821 Add AppStream metadata to all packages containing firmware blobs
+* e4147b9 Prepare to release firmware-nonfree (20151207-1).
+* cb72dad brcm80211: Note Broadcom BCM4356 firmware update in changelog
+* 454cdba misc-nonfree: Include MediaTek MT7601U firmware
+* a6e3f11 brcm80211: Include Broadcom BCM4371 firmware
+* b01be55 Update to commit bbe4917c054eb0a73e250c6363341e3bf6725839, dated 2015-12-07
+* 5e29066 qlogic: Include QLogic QL45000 series firmware for use with the qed driver
+* 3065d4a brcm80211: Include Broadcom BCM4350 firmware and BCM43602 AP-mode firmware
+* dc4dc09 brcm80211: Fix typo in descriptions
+* c0a8bbe misc-nonfree: Include Intel "Skylake" video interface firmware version 1.23
+* aacf21e amd-graphics: Include new microcode
+* c4eecbd bnx2: Exclude obsolete firmware (version 5.0.0.j3)
+* 8464cdb bnx2x: Exclude obsolete firmware (version 7.8.17.0)
+* f3e1f3e bnx2x: Include Broadcom NetXtreme II 10Gb firmware version 7.13.1.0
+* 297d516 iwlwifi: Exclude obsolete firmware (ABIs 7, 8, 10, 13)
+* 773db7b iwlwifi: Include Intel Wireless 7000/8000-series firmware ABI 16
+* f0b8735 atheros: Include Atheros AR7010 and AR9271 firmware version 1.4.0
+* f688399 Update to commit bb818e53175cce9967cdfd8d8155c438e7ba099f, dated 2015-11-20
+* 22b311e debian/README.source: Update for the conversion to a non-native package
+* 232d53c ipw2x00: Downgrade Intel Pro 2200/2915 firwmare to version 3.0
+* 6b9a501 Prepare to release firmware-nonfree (20151018-2).
+* 9246f0a misc-nonfree: Change Conflicts relation with firmware-{adi,ralink} to Breaks
+* 3b8f53e amd-graphics, misc-nonfree: Add {Breaks,Replaces}: firmware-linux-nonfree
+* 063400d Prepare to release firmware-nonfree (20151018-1).
+* 28e858a qlogic, samsung: Suppress lintian warning about reference to GNU GPL
+* b288aeb iwlwifi: Fix minor errors in metadata
+* 300caef List non-upstream binary files in debian/source/include-binaries
+* 19e3745 Add bug closures for new/updated firmware
+* 51e7a0b atheros: Add all the ath10k firmware and board files
+* 1118dcd Note the upstream commit hash and updates made by using upstream files
+* 6fbf31c realtek: Include firmware for various Bluetooth adapters
+* 0677ea5 realtek: Abbreviate the package description
+* 204b1e5 Add firmware-cavium package
+* c7f6bc2 libertas: Include firmware for SD8887, USB8766 and USB8897
+* 3c8951d myricom: Include Myri-10G firmware variants supporting big RX rings
+* cef03bf Add firmware-intel-sound package
+* 427d2bd Add firmware-siano package
+* f66aea3 adi, ralink: Merge into the firmware-misc-nonfree package
+* 55f8da4 misc-nonfree: Include much more miscellaneous firmware
+* 63bc8ec misc-nonfree: Update metadata for Chelsio T4 and T5 firmware
+* 60e83b3 iwlwifi: Really include the iwlwifi ABI 14 firmware
+* 67e8c32 iwlwifi: Include various new firmware
+* ef3ab80 qlogic: Include firmware for former Brocade adapters supported by bfa and bna
+* 9513cc0 qlogic: Convert copyright file to structured format
+* 1e91c34 brcm80211: Include firmware for many more chips supported by the brcmfmac driver
+* f72b79b bnx2x: Include Broadcom NetXtreme II 10Gb 57710, 57711 and 57712 firmware version 7.12.30.0 (for Linux 4.3 onward)
+* 1ee1517 atheros: Include firmware for Atheros AR3012 rev 11020100 and Qualcomm Atheros QCA988X
+* a940493 misc-nonfree: Update Chelsio T4 and T5 firmware to version 1.14.4.0
+* 7b2ea08 amd-graphics: Include microcode for new chips supported by the amdgpu driver
+* 86e0027 amd-graphics: Include Radeon HD 7900 series VCE microcode
+* 97161b2 linux-nonfree: Split into firmware-{amd-graphics,misc-nonfree} packages
+* 4f1b1af Remove redundant iwlwifi and qlogic firmware files
+* db0df18 Ignore more upstream files we don't want
+* fced756 debian/control: Set homepage URL to current cgit page for linux-firmware.git
+* 1030a0b check_upstream.py: Reimplement check for unpackaged firmware
+* 5adb877 check_upstream.py: Recognise GPLv3 and GPL dual-licenced files
+* 6ba0ce5 check_upstream.py: Report possibly undistributable files that are not excluded
+* 7402e8d Convert to a non-native package with linux-firmware.git as upstream
+* 89bbdc5 Move Config class from gencontrol.py to a module of its own
+* d599c6c check_upstream.py: Split license check into multiple functions
+* c2fac37 debian/bin: Use Python 3 (as assumed by linux-support-4.2.0-1)
+* 41bcd06 Delete duplicate file definitions for firmware-libertas
+* f202d31 Remove ancient firmware not included in linux-firmware.git
+* 0f4054c Explicitly ignore some files that svn ignores by default
+* c8bd73c debian: update to latest linux support
+* e5d8070 iwlwifi: add a bunch of newer firmwares
+* 6935055 debian/control: Drop Frederik Schüler and dann frazier from Uploaders
+* 5922d55 Remove unnecessary and mostly invalid uses of dpkg-architecture
+* 9e46705 Update to linux-support 4.1.0-2
+* a482e9f debian/control: Update Standards-Version to 3.9.6; no changes needed
+* f8e7c83 samsung: Add copyright holder to copyright file
+* ed3e730 samsung: Suppress lintian warning about reference to GNU GPL
+* 9c72821 Change source format to 3.0 (native) so that .git directory is excluded by default
+* 6ebd50b Update Vcs-* fields to point to git
+* aa4fe25 Add .gitignore based on svn:ignore property
+* 62e7abb Note closure of #793874 in the changelog
+* b5b3474 realtek: Remove RTL8192SU/rtl8192sfw.bin, which has not been needed since r8192s_usb was replaced by r8172u (Closes: #793874)
+* 0268259 Prepare to release firmware-nonfree (0.44).
+* 734b1b6 Remove support for backporting to non-multi-arch versions
+* fc6ecec ti-connectivity: Remove TI WL18xx default configuration, as TI now recommends letting the driver use its built-in defaults
+* 233f311 atheros: Update Atheros AR3012 rev 01020201 patch to version 170
+* a39f22d brcm80211: Update Broadcom BCM4354 firmware to version 7.35.79.57
+* a71d2e6 libertas: Update Marvell PCIE8897, SD8787, SD8897 and USB8797 firmware
+* 42a1452 atheros: Update Atheros AR7010 and AR9271 firmware to version 1.3.1
+* bec72d0 iwlwifi: Update Intel Wireless Bluetooth firmware patches again
+* 5800dee realtek: Update RTL8107E-1, RTL8107E-2, RTL8168H-1 and RTL8168H-2 firmware to version 0.0.2
+* 4859536 linux-nonfree: Update Radeon R5/R7 IGP 200 series MEC microcode to version 396
+* 6685c1e iwlwifi: Update Intel Wireless 3160, 7260 7265 and 7265D firmware to version 23.15.10.0 (ABI 10)
+* 6d2fa24 Restore buxy's line in the changelog
+* 3871f3d Revert "Prepare to release firmware-nonfree (0.44)."
+* cce6924 Prepare to release firmware-nonfree (0.44).
+* 3efd406 Update to linux-support-4.0.0-1
+* 765deb1 Remove definitions for the old Chelsio cxgb4 firmware (v1.9.23.0)
+* 2f0c834 Document the status of firmwares that were not yet handled
+* 94481d1 Update iwlwifi/intel patches and add new patches
+* f1bc3ae Add firmwares Broadcom 43236 and 43143 usb device
+* f54b782 Add radeon firmwares
+* 33ce58c Add dvb-* firmwares
+* c6c03bb Add bnx2x firmwares
+* 519038e Add linux non-free cxgb4 firmwares
+* 227d536 Update Qlogic firmwares (2400 and 2500)
+* 5e6ef46 Add iwlwifi-7265D-10.ucode
+* 2a92a58 Update realtek/rtl_nic firmwares
+* 42fde26 Update realtek/rtlwifi firmwares
+* caf7284 Update iwlwifi firmwares
+* 9efb7d4 Switch to linux-support-3.16.0-4.
+* b822957 Prepare to release firmware-nonfree (0.43).
+* ce70a97 samsung: New package containing firmware for Samsung MFC video codecs used in Exynos SoCs (Closes: #749423)
+* b1b6460 iwlwifi: Add Intel Wireless 3160, 7260 and 7265 firmware version 23.214.9.0 (ABI 9)
+* e3defd7 Prepare to release firmware-nonfree (0.42).
+* b215629 Fix description for Intel Wireless 3160 rev 10 Bluetooth firmware patch
+* cfa28a1 Update/add Intel Wireless 3160/7260/7265 Bluetooth firmware
+* 7a12245 myricom: Update Myri-10G firmware to version 1.4.57
+* f9e394e realtek: Add RTL8723AU and RTL8723BE firmware for use with the rtl8723au and rtl8723be drivers
+* 6f4c7c3 brcm80211: Add Broadcom BCM43143, BCM43362 and BCM4354 firmware for use with brcmfmac driver
+* 599895a Add bug number and Radeon brand name to the changelog
+* 3c0cebe linux-nonfree: Add VCE microcode, MC microcode version 2 and "Mullins"/"Beema" IGP microcode
+* b45d8be bnx2x: Remove Broadcom NetXtreme II 10Gb firmware version 7.8.2.0 (for Linux 3.7-3.9)
+* 22ab537 bnx2x: Add Broadcom NetXtreme II 10Gb firmware version 7.8.19.0 (for Linux 3.15 onward)
+* 67f4604 iwlwifi: Update Intel Wireless 3160 and 7260 firmware to version 22.24.8.0 (ABI 8); add Intel Wireless 7265 firmware
+* b7aaa7f Update to linux-support-3.14-1
+* 387bfae linux: Move to the 'non-free/metapackages' section
+* 32174df Prepare (again) to release firmware-nonfree (0.41).
+* 6114f12 Update Vcs-Browser URL to save a redirection
+* 63d676f debian/control: Update Standards-Version to 3.9.5
+* e184cdd libertas, linux-nonfree: Use 'Breaks' relation rather than 'Conflicts' where files have been moved from another package
+* 94c0d50 linux: Move to the metapackages section
+* f96743b ivtv, ipw2x00: Add one-line copyright notices above licence text
+* 111a35e Suppress more lintian warnings due to our unusual licences
+* 9f67b8d debian/control: Allow debhelper to add dependencies through ${misc:Depends}
+* 3256d86 Suppress lintian warnings and errors due to our unusual mixture of licences
+* 11023da linux-nonfree: Update wildcard and date for files under the Chelsio licence
+* be865cf Prepare to release firmware-nonfree (0.41).
+* e9de600 Note that Intel Wireless 3160 Bluetooth firmware is loaded by btusb driver
+* 7b89fdd linux-nonfree: Update wildcards for files under the AMD licences
+* 2178844 Add firmware-ti-connectivity package
+* af01ff7 Add new RTL8192CU firmware for use with the rtl8192cu driver
+* 53d3a2a iwlwifi: Update Intel Wireless 7260 Bluetooth firmware; add Intel Wireless 3160 Bluetooth firmware
+* 98801e2 realtek: Add RTL8188EU firmware for use with the rtl8188eu driver and RTL8821AE firmware for use with the rtl8821ae driver
+* e9cab94 brcm80211: Add Broadcom BCM43241, BCM4329, BCM4330, BCM4334 and BCM4335 firmware for use with brcmfmac driver
+* 3f8c116 linux-nonfree: Add Radeon HD 7790/8770/8950 series SMC microcode, Radeon R9 290 series and Radeon R5/R7 IGP 200 series microcode
+* 5765aab iwlwifi: Update Intel Wireless 3160 and 7260 firmware to version 22.1.7.0 (ABI 7) and version 22.15.8.0 (ABI 8) (Closes: #738615)
+* 2c7b06b libertas: Update PCIE8897 firmware to version 15.69.2.p11 (WLAN) / 15.28.2.p11 (BT); add SD8897 firmware
+* 525d2f1 linux-nonfree: Update Chelsio T4 firmware to version 1.9.23.0; add Chelsio T5 firmware
+* 943a637 qlogic: Update QLogic ISP2422/ISP2432[M]/SP222/ SP232 and ISP2532 firmware to version 7.01.00
+* 46f7e25 Fix wrapping of file lists in package description (Closes: #739798)
+* a866ca6 Update to linux-support-3.13-1
+* d85ea92 To allow auto-removal of linux-image-* packages, do not suggest virtual package linux-image (Closes: #724560)
+* 520db2c Prepare to release firmware-nonfree (0.40).
+* 587cf73 linux-nonfree: Add Radeon HD 7790/8770/8950 and 8100/8200/8300/8400 series microcode
+* 0c14f89 linux-nonfree: Correct descriptions of Radeon chips using some microcode files
+* 012a0ca linux-nonfree: Add Radeon SMC microcode (Closes: #717848)
+* b2a504f Update to linux-support-3.10-2
+* f9b7998 Prepare to release firmware-nonfree (0.39).
+* 4b069af Add names of related drivers to changelog
+* 9c50ce0 libertas: Fix config section name for mrvl/pcie8897_uapsta.bin
+* 0be28d6 realtek: Correct filename rtl8188eefw.bin -> rtl8188efw.bin
+* d2eafda Ignore AMD microcode when comparing with upstream, as they are packaged in amd64-microcode
+* 74dff55 iwlwifi: Add Intel Wireless 7260 Bluetooth firmware patches
+* 8fc6203 Adding AR5523 firmware closes #700826
+* 1d19d9a atheros: Add AR5523 firmware for use with ar5523 driver
+* 8615975 atheros: Add AR3012 rev 41020000 firmware for use with ath3k driver
+* 29e5d89 realtek: Add RTL8411-2 firmware version 0.0.1 for use with r8169 driver
+* 5e6cdd1 realtek: Add RTL8188EE firmware for use with rtl8188ee driver
+* 70259b8 realtek: Add RTL8723AE firmware for use with the rtl8723ae driver (Closes: #708346)
+* ef316de Adding new Radeon microcode also closes #717145
+* 0217786 linux-nonfree: Update Radeon RLC microcode to support UVD
+* 958ed34 linux-nonfree: Add Radeon HD 8500/8600 series and R5 M200 microcode
+* d8e7ced linux-nonfree: Add Radeon UVD microcode (Closes: #704564)
+* 4202092 iwlwifi: Add version number to 3160 and 7260 files
+* fec2f2b bnx2x: Add Broadcom NetXtreme II 10Gb firmware version 7.8.17.0 (for Linux 3.10 onward)
+* a3344a7 New iwlwifi firmware also closes #714754
+* 4d78a66 iwlwifi: Add Intel Wireless 3160 and 7260 firmware version 22.0.7.0 (ABI 7) (Closes: #717005)
+* dfbcd85 iwlwifi: Remove list of model names from description
+* 5d54feb libertas: Add MWL8764 AP-mode firmware version 7.4.0.9 and PCIE8897 firmware version 15.69.201.p52
+* be8f768 linux-nonfree: Add Broadcom BCM57766 firmware
+* e460913 Update to linux-support-3.10-1
+* acae933 Include all symlinks in package descriptions
+* 16e0ef7 libertas: Add Marvell 8366 AP firmware ABI 3 to file list
+* dd5d402 Prepare to release firmware-nonfree (0.38).
+* a079391 realtek: Add RTL8106E-2, RTL81868G-2 and RTL8168G-3 firmware patches
+* b5e198e realtek: Add RTL8106E-2, RTL81868G-2 and RTL8168G-3 firmware patches
+* 50f7973 linux-nonfree: Add Radeon HD 8500/8600/8700 series firmware
+* 3817122 netxen: Update QLogic Intelligent Ethernet firmware to version 4.0.590
+* a32aac1 libertas: Add Marvell SD8787, SD8797 and USB8797 firmware for use with the mwifiex_sdio and mwifiex_usb drivers
+* 9938e10 libertas: Add Marvell 8366 AP firmware version 5.2.8.16 (ABI 3, for Linux 3.9 onward)
+* c4cccdc libertas: Move libertas/sd8688{,_helper}.bin into mrvl/ and add symlinks
+* bd91941 realtek: Update copyright information for PHY firmware used with r8169 (Closes: #706912)
+* dc6e2ce Update to linux-support-3.8-1
+* 3bd5778 linux-nonfree: Remove incorrect Conexant CX23885 firmware
+* 2f9b3ad linux-nonfree: Add Conexant CX231xx, CX23418 (Closes: #697008) and CX23885 firmware
+* a1a6c7d ivtv, linux-nonfree: Replace Hauppauge's version of v4l-cx25840.fw
+* 2caf75b linux-nonfree: Add licence information for ENE UB6250 firmware (Closes: #697535)
+* 60c140f Prepare to release firmware-nonfree (0.37).
+* 6a15ea6 Note all the wishlist bugs I just fixed
+* 11f8159 Really remove modprobe.conf
+* 5623ed1 Add firmware-adi package containing Analog Devices Inc. Eagle IV firmware for use with the ueagle-atm driver
+* 971d50b atheros: Add firmware for AR6003, AR6004 and newer AR3012 revisions
+* bad722d linux-nonfree: Add ENE UB6250 firmware
+* 0e6fbcd realtek: Update r8169 firmware
+* c308654 Use 'realtek' prefix, not 'rtlwifi', for changes to firmware-realtek
+* 9fd2684 Update various rtlwifi firmware
+* 49f50c0 brcm80211: Update firmware to version 601.812
+* f92bab5 linux-nonfree: Update Radeon HD firmware
+* e3c7eac ralink: Add Ralink RT3290 firmware
+* aed3003 netxen: Update QLogic Intelligent Ethernet firmware to version 4.0.588
+* 41d180e bnx2x: Add Broadcom NetXtreme II 10Gb firmware version 7.8.2.0 (for Linux 3.7 onward)
+* 0fd7a17 iwlwifi: Add Intel Wireless 6005/6205 firmware version 18.168.6.1 (ABI 6)
+* 56b6d86 libertas: Update SD8686 main code to version 9.70.20.p0
+* d8c6c0d linux-nonfree: Update Chelsio T3 and T4 firmware
+* 9ed613b qlogic: Update firmware from linux-firmware.git
+* 8590be9 Revert revision 19504 "linux-nonfree: Install a modprobe configuration file..."
+* a87b0c7 linux-nonfree: Install a modprobe configuration file to enable radeon KMS, which will be disabled by default
+* debc9f3 linux: Recommend intel-microcode, amd64-microcode (Closes: #692604)
+* 6f122b6 Update to linux-support-3.2.0-4
+* 063585c iwlwifi: Add new driver names and full Intel product names to package description
+* ed9a6c3 Revert incomplete addition of debconf template translation
+* e9922b1 Add debconf template translation template
+* 15482f6 Enable debconf template translation and add first few translations
+* c60b8b4 debian/README.source: Document the oddities of this source package
+* fdaecfd Remove a to-do item that was implemented long ago
+* 06c7fd5 Prepare to release firmware-nonfree (0.36).
+* b37f5e1 Update QLogic SCSI HBA firmware from linux-firmware.git
+* 153a78a Note more bugs closed by pending updates
+* 3fb36b2 Remove Intel Wireless firmware not required by Linux 2.6.32, 3.2 or 3.3
+* afc3e53 Exclude some more old firmware files
+* c77f640 Add summary of bnx2 firmware changes for Linux 3.3
+* 8658d22 Update Realtek RTL8168E-3 and RTL8168F firmware to version 0.0.4
+* 439f8e8 Update Broadcom NetXtreme II firmware for use with Linux 3.3
+* 4a42b0b Update Intel Wireless WiFi Link firmware
+* ec19918 Add Chelsio T3 firmware version 7.10.0 (for Linux 2.6.36 onward)
+* caef64c Update to linux-support-3.2.0-2
+* 8b4cc67 Update Chelsio T4 firmware to version 1.4.16.0
+* 4ece4dc Remove reference to foreign linux-image packages
+* e532c05 debian/control: Set Multi-Arch: foreign to allow for installation of foreign linux-image packages
+* 36ff571 Run dh_prep to ensure a clean package build
+* 8953343 Prepare to release firmware-nonfree (0.35).
+* 9f1024d Note update to linux-support-3.2.0-1
+* 41513a9 Update to linux-support-3.2.0-1
+* 00662dd Update firmware-realtek description as more RTL8168 variants need firmware
+* 5cfec1f Replace Broadcom NetXtreme II 10Gb firmware version 6.2.9.0 with 7.0.29.0
+* 2d6b4c8 Update Realtek RTL8168E-3 firmware to version 0.0.3
+* 2c2c36b Fix typo in model number RTL8168F
+* e871a69 Add Realtek RTL8169F firmware for use with r8169 driver
+* 6528f8b Add version to firmware-libertas's conflict with libertas-firmware
+* 8266b1b Prepare to release firmware-nonfree (0.34).
+* f9e3ea2 Update Atheros AR3012 firmware
+* 7d06669 Fix model number and add bug closure for update of iwlwifi-6000g2a-5.ucode
+* 1f6a1a4 Fix typo in filename rtlwifi/rtl8192defw.bin
+* 4e201ed Add Realtek RTL8192DE firmware for use with rtl8192de driver
+* b898b48 Update Realtek RTL8192SU/RTL8712U firmware to match vendor driver version 2.6.6
+* 30ed22e Revise changelog entries to name devices, not drivers
+* b3a7fd3 Update Intel Wireless 6025 firmware to version 17.168.5.3
+* f9c1cd4 Update cxgb4 firmware to version 1.3.10.0
+* f53688f Replace bnx2x firmware version 7.0.20.0 with version 7.0.23.0
+* f4af04c bnx2x firmware version 6.0.34.0 is even more out-of-date than I thought
+* 89b2d9d Replace bnx2x firmware version 6.0.34.0 with version 6.2.9.0
+* 815d446 Update netxen firmware to 4.0.579
+* 7c86256 Add licence for Libertas firmware for OLPC; use DEP-5 format
+* d3ade77 Add two more Marvell Libertas firmware images
+* f41d605 Improve formatting of upstream reference in copyright files
+* 72c6ce3 Set the upstream homepage URL to the current gitweb page for linux-firmware.git
+* a46cfad firmware-libertas replaces, conflicts and provides libertas-firmware
+* b5c5f2d Update and enable building of firmware-libertas package
+* a6eb533 Prepare to release firmware-nonfree (0.33).
+* 9c7cf40 Update to linux-support-3.0.0-1
+* 37bc311 Add Atheros AR3012 firmware for use with ath3k
+* 0655399 Prepare to release firmware-nonfree (0.32).
+* 9626437 Remove bnx2 fwcutter, obsolete after upstream separation of firmware
+* ad77a5c Install Realtek RTL8192SE/RTL8191SE firmware for use with rtl8192se (Really closes: #609784)
+* 6eee9f6 Warn about unused files in each package directory
+* 493d4fc Update to linux-support-2.6.39-2
+* 928f137 Prepare to release firmware-nonfree (0.31).
+* 6298355 Ignore Xframe firmware when comparing with upstream
+* 465b81f Add firmware-myricom package for use with the myri10ge driver
+* 21c62f5 Correct descriptions of ar7010.fw and ar7010_1_1.fw
+* 18c3d9c Update newer Atheros AR7010 and AR9271 firmware to version 1.3 (Closes: #631394)
+* 9e197e4 Add AMD Fusion GPU firmware for use with radeon
+* dd6fa07 Add version 7.0.20.0 of Broadcom NetXtreme II 10Gb firmware for use with bnx2x in Linux 3.1+
+* edd7eb6 Add Chelsio T4 firmware for use with cxgb4
+* 76359a5 Add Realtek RTL8192SE/RTL8191SE firmware for use with rtl8192se (Closes: #609784)
+* 4ee0636 Update to version 9.221.4.1 (ABI 4) of Intel Wireless 6000 firmware
+* 0126340 Update to version 9.221.4.1 (ABI 4) of Intel Wireless 6000 firmware
+* 3d3492e Add version 39.31.5.1 (ABI 5) of Intel Wireless 1000 firmware (Closes: #627334)
+* 068fc3c Prepare to release firmware-nonfree (0.30).
+* 46436df Fix descriptions for Ralink files that have been combined
+* 855b8da Ignore the bnx2 firmware versions I just removed as unneeded
+* 856b675 Add symlink names after regular file names in package descriptions
+* ef44ec8 Add bug closures for new firmware
+* e904a45 Add Realtek RTL8105E-1 and RTL8168E-1/2/3 firmware for use with r8169
+* fd02c48 Add Realtek RTL8192CE/RTL8188CE firmware for use with rtl8192ce
+* 93da20a Add Realtek RTL8192CU/RTL8188CU firmware for use with rtl8192cu
+* f0a27db Update brcm80211 firmware to version 610.811
+* f93a9cd Remove bnx2 firmware not referenced by Linux 2.6.32, 2.6.38 or 2.6.39
+* 9b1255e Fix typo in bnx2 firmware version
+* 368d136 Add new version of bnx2 firmware from Linux 2.6.39
+* b6cb2d0 Add firmware for HTC devices using Atheros AR7010 and AR9271
+* cfab20f Update netxen firmware to 4.0.550
+* 20ece31 Update Ralink RT2800-family firmware (Closes: #601416)
+* 75da757 Correct list of chips supported by brcm80211, thanks to Jani Reunanen
+* 76409a2 Update to linux-support-2.6.38-2 (Closes: #620171)
+* 6240c8a Make firmware-realtek trigger update-initramfs (Closes: #617645)
+* 5f91f4d Exclude various files in linux-firmware that we do not want
+* 452b0e6 Allow files in linux-firmware to be excluded from consideration
+* 658e0a3 Set maybe_free correctly for each section
+* 328b26f Make check_upstream.py get package/subdirectory names from config
+* ff61097 Split check_upstream.py into separate scripts for free and non-free
+* 45e363b Use Python debian_linux.firmware module in check_upstream.py
+* 77c9018 Update to linux-support-2.6.38-rc8.
+* 2edeab3 Prepare to release firmware-nonfree (0.29).
+* be0d150 Remove excess brackets
+* 6a39bf4 Add VIA VT6656 firmware for use with vt6656 driver
+* 9800e0b Correct new Radeon HD model numbers
+* d457c13 Add firmware for Radeon HD 'Northern Islands' and AMD Fusion C-series
+* 65ebda8 Add new versions of bnx2 firmware from Linux 2.6.38 (Closes: #615972)
+* 00dc6ea Add new Intel Wireless firmware images
+* 5bf23e5 Update Atheros AR9271 firmware
+* d35c059 Disable firmware-libertas package for now
+* 72221e6 Move linux-firmware 'upstream' check script to debian/bin
+* b0b3897 Add firmware for Marvell Libertas MWL8687 (mwl8k driver)
+* 8e3a8c1 Add firmware-libertas binary package
+* 013ebcb Add support for installing symlinks
+* 50abc55 Revert r16792, redundant with SHELL := sh -e
+* b77dfc4 Make install target fail if any single install command fails
+* 1429742 Prepare to release firmware-nonfree (0.28).
+* 1de84a8 Add the more permissive licence for Ethernet controller firmware
+* 9b23553 Update copyright dates
+* eba5483 Note different download source for ar9170.fw
+* ecd6a0e Clarify that new versions of bnx2 and bnx2x firmware do not replace the old
+* 68ee445 Add new iwlwifi firmware
+* 02dfccd Remove bnx2 firmware versions not used by the driver in any suite
+* 9f62c28 Update bnx2 firmware from Linux 2.6.37
+* 9f364f7 Update bnx2x firmware from Linux 2.6.37
+* 155411f Update Atheros AR3011 firmware
+* 085f496 Add Realtek RTL8192SU/RTL8712U firmware for use with r8712u (Closes: #602450)
+* 6e14955 Correct RTL8192 driver module names
+* f284504 Add Realtek RTL8111D/RTL8168D firmware to firmware-realtek (Closes: #564628)
+* e06ccc1 note also used w/ qlcnic driver
+* 3a7fae7 Update netxen firmware to 4.0.534 (Closes: #606289)
+* 7dd7dfd Add firmware for devices supported by ar9170 and ath9k_htc to firmware-atheros (Closes: #558740)
+* 20ed8f4 Add bug closure
+* 9043205 Update intelwimax firmware from Linux 2.6.35
+* e1bf8ea Update bnx2x file list
+* 1b9ef54 Update bnx2x firmware from Linux 2.6.35
+* 9eb191c Update bnx2 firmware from Linux 2.6.35
+* 747c9d2 Prepare to release firmware-nonfree (0.27).
+* ab67da7 Remove existing file/symlink when creating bug-presubj symlink
+* 0a61a77 Change line-endings to LF; remove BOM at start
+* 9fa8d50 Move creation and deletion of bug-presubj links out of build and clean rules
+* 84f874f Add bug closure for firmware-brcm80211
+* 10b2202 Add firmware-brcm80211 binary package for use with the brcm80211 driver
+* 62b2756 Add subdirectory to filename before splitting into base name and version
+* 87b1a04 Add firmware-netxen binary package
+* 9f0a27f Add bug presubj message
+* 87eaff2 Correct version number for ipw2200 firmware Refer to index pages for ipw2100 and ipw2200 firmware
+* d118eea Prepare to release firmware-nonfree (0.26).
+* 43c97a3 Note that MTS firmware closes #588097
+* c729196 Change file listing in linux-nonfree/LICENSE to follow draft DEP-5
+* 21ce6e7 Add Multi-Tech USB cellular modem firmware
+* c33fa9b Prepare to release firmware-nonfree (0.25).
+* 9eb28e5 Add Intel Wireless 6250 firmware (iwlwifi-6050-4.ucode) (Closes: #585111)
+* 6bdb001 Add firmware-atheros package containing Atheros AR3011 firmware
+* bfb1841 Update firmware-ralink description
+* 08c51a1 Add Radeon HD 'Evergreen' firmware for use with Linux 2.6.34
+* 1738a7f Add/update Ralink RT3070/RT3071/RT3072 firmware for use with Linux 2.6.34
+* 9b15008 Update rtl8192su to version 902B (Closes: #581554)
+* fd446b2 Delete stray dot in license question.
+* 7965ca4 Prepare to release firmware-nonfree (0.24).
+* 9cc93d4 Bump standards to 3.8.4, no changes required.
+* 42cef5d Explicitly note that firmware-linux is a meta-package
+* ead2ba1 Fix grammar of license question
+* 21a9481 Merge preinstallation license note and question (Closes: #574145)
+* a4ef55d Update to linux-support-2.6.32-5.
+* 400218b Add Realtek RTL8192SU firmware for use with rtl8192su driver (Closes: #579694)
+* f7c2bed Add copyright and licence text for radeon/R{6,7}00_rlc.bin to firmware-linux-nonfree (Closes: #576104)
+* f19a5f0 Update iwlwifi-6000 to 9.193.4.1.
+* 46bff6d Credit Geoff Simmons for work on rtl8192e
+* 186fd5e Add firmware-realtek package
+* 82ebe43 Revert r15379; this firmware is used by yet another Realtek driver
+* 84dc0e7 Add firmware-realtek package
+* 2d2ce20 Update to linux-support-2.6.32-3.
+* 2df0065 Prepare to release (0.23).
+* c5e8ff1 Add Radeon R600/R700-family RLC firmware
+* ca17a2f Update Ralink RT2800U[D] firmware (rt2870.bin) from Linux 2.6.32
+* ab83af2 Add Ralink RT3000E[D] firmware (rt3090.bin) for use with rt3090sta
+* 9767585 Correct some version numbers in firmware-ralink description
+* c1c9809 Update hardware list in firmware-ralink description
+* f42f65f Update firmware-qlogic description to specify supported chips as named in pci-ids (Closes: #513140)
+* f8c9904 Prepare to release (0.22).
+* 625e18c Accept CIS files as potentially free without a separate source file
+* 8ca4e5f Update Broadcom NetXtreme II firmware for use with Linux 2.6.32 (Closes: #560065)
+* 0f6f23a Match more licence texts that allow binary distribution
+* deb8613 Update Radeon firmware descriptions
+* 5d654a5 Include names of all firmware files in package descriptions (Closes: #553710). Do not include 'version unknown' in package descriptions.
+* 593ee68 Change URI for firmware-linux-nonfree to refer to David Woodhouse's linux-firmware.git repository (Closes: #558033)
+* dcdeb0b Update Radeon firmware for use with Linux 2.6.32 (Closes: #558023)
+* f98c1ab add iwlwifi-6000 firmware
+* 3154a75 add iwlwifi-1000 firmware
+* 71ad096 Update to 2.6.31-1; prepare to release (0.21).
+* 1b463fa debian/changelog: Prepare to release (0.20).
+* 28405f8 debian/rules.defs: Use 2.6.30-2.
+* 839653f Fix name of ip_iband driver
+* ad99089 Include module/driver names in descriptions of all specific packages (Closes: #510220)
+* d117e3f Mention IBA7220 in the long description too
+* 2f56988 Update description of firmware-bnx2 contents, thanks to Geoff Simmons <gsimmons@gsimmons.org> (Closes: #536050)
+* b3bac41 Match destination filenames with version number appended
+* 7a839ac Add firmware-intelwimax package.
+* 81e27ce Add AdvanSys SCSI controller firmware for use with advansys driver (Closes: #535922)
+* dce2ead Add support for multiple destination direcories.
+* 5601f77 Update upstream URL for firmware-ralink (Closes: #551975)
+* ab134f0 firmware-linux-nonfree Replaces and Conflicts with old firmware-linux (Closes: #551146)
+* d04adb3 Override Gencontrol.substitute() to support optional variables.
+* 7fc7d3a Make GenControl inherit from debian_linux.gencontrol.Gencontrol.
+* a81a93d Update linux-support build-dep to 2.6.31-trunk
+* d14863b Prepare to release 0.19 (to experimental)
+* d7842d0 Add DiBcom dib0700 USB DVB bridge firmware for use with dvb-usb-dib0700 driver
+* 7cb7975 Add Xceive 5000 tuner firmware for use with xc5000 driver
+* aa1d8b2 Add Agere/Prism/Symbol Orinoco firmware for use with orinoco driver
+* 1429570 Fix matching of 'Redistributable'
+* 1ebdaad Make firmware-linux a metapackage and move previous contents to firmware-linux-nonfree
+* a6a20ad Correct 'Homepage' control data for firmware-bnx2 and firmware-bnx2x (closes: #546899)
+* f8860ea debian/changelog: Prepare to release (0.18).
+* e49454a * iwlwifi/LICENSE: Update. * iwlwifi/defines: Update descriptions.
+* 182c081 Revert linux-nonfree introduction.
+* 56a5ebb Mention the new rt2870 driver
+* e7c8ffc Update firmware from rt2870sta and rt3070sta drivers
+* 6999581 Add major version component to rt2860.bin and rt2870.bin
+* 86bbc3b Add bug closure for tg3 firmware
+* 327f36d Fix description of binary firmware directory for linux-2.6
+* c28d0ec Add update advisor script that compares against linux-firmware.git
+* 24ce835 Add Chelsio T3 firmware for use with cxgb3 driver
+* df88e3d Add QLogic IBA7220 serdes firmware for use with ip_iband driver
+* 7d8ae74 Add Broadcom Tigon3 firmware for use with tg3 driver
+* f2f400c cosmetic change, add a space between "NetXtreme" and "II"
+* c17c831 Make firmware-linux a metapackage and move previous contents to firmware-linux-nonfree
+* dd2123b Fix Matrox G200/G400/G550 firmware image format (closes: #531367)
+* 8289e99 changelog fix
+* 7871f65 Update iwlwifi-4945 to 228.61.2.24.
+* 06423b6 Revert "revert wording of firmware-linux"
+* 8b0e5f8 revert wording of firmware-linux
+* 2120338 add iwlwifi-5150-2.ucode
+* 4cb1684 add iwlwifi-5000-2.ucode
+* 90370bd Prepare to release 0.17
+* 349fb1d Note use of linux-support 2.6.30-1
+* 0d1f053 Add myself to Uploaders
+* a4f3b2a Use linux-support 2.6.30-1
+* c98cc1b Mark as binary (svn:mime-type=application/octet-stream)
+* 703a2d8 Note that the added Radeon firmware will close #532040
+* 376b4fc Note that addition of firmware-bnx2x closes #509646
+* b954416 Add bnx2 firmware from Linux 2.6.30-rc7
+* 5a77295 Add new firmware-bnx2x package
+* 177b81b add entry
+* 14407bc Update wording to read better when combined w/ template text
+* 0e4488a update description to clarify purpose
+* c6ca7c5 firmware-nonfree update builddep
+* 35ef5a3 Fix the grammar of the description of firmware-linux (really closes: #524382)
+* ef27b17 Fix grammatical errors in the templates for package descriptions, copyright files and EULA prompts
+* 5b26485 linux/defines: fix upstream url
+* 990f591 Add firmware for use with ivtv and pvrusb2 drivers (closes: #524230), thanks to Ian Campbell <ijc@hellion.org.uk>.
+* 55bdb85 Use standard version of Python, not 2.4
+* 03226db Update iwlwifi-3945 to 15.32.2.9.
+* 0cdef2d Fix subject-verb agreement problem in firmware-linux description. (Closes: #524382)
+* 57faa31 Correct version number for rt2870.bin
+* 598a958 Add Ralink RT2870 firmware
+* 4e23b0b Add Ralink RT2860/RT2890 firmware
+* 84d9765 Add Radeon R600-family and R700-family firmware
+* fed2079 Add Radeon RS600 firmware
+* d02f93c templates/control.source.in: section non-free/kernel
+* ce15ad2 nuke old duplicate qlogic files
+* 3f0f272 prepare to release
+* a7c3160 update qlogic firmwares
+* 49b189f changelog add bug entry
+* 9764cd9 Update Intel Pro 2200/2915 firwmare, version 3.1
+* 302ea30 prepare to release 0.15
+* 010b292 changelog add dannf bnx2 entry
+* ee144dc uploaders: add dannf and myself
+* 8ca9b5c unstable got 2.6.29
+* 4b5f9d7 changelog add bug closure
+* 6087664 qlogic/copyright - Move from qlogic/LICENSE. - Change into complete copyright file.
+* 62be3a5 debian/rules: Also check copyright files.
+* acf9383 debian/bin/gencontrol.py: Add complete copyright files for the packages.
+* 098ee2b iwlwifi/defines: Fix description.
+* 4043f63 add bnx2 fw revs from 2.6.29
+* a06a186 Update linux-support build-dep to 2.6.28-1 to prevent FTBFS in sid
+* aa692fd Bump standards to 3.8.1, no changes required.
+* c1abc98 update 3945 firmware
+* 30a9699 Add iwlwifi-5000-1.ucode
+* 36af942 Update iwlwifi-4965 to 228.57.2.23
+* 2449ab5 Allow for multi-line macro definitions in bnx2.h
+* 130e48d linux/defines: Add initramfs-tools support.
+* 49cf5a6 * debian/bin/gencontrol.py: Don't create initramfs-tools hook. * debian/changelog: Update. * debian/rules.real: Don't install initramfs-tools hook. * debian/templates/hook.initramfs-tools.in: Remove.
+* 17ca698 debian/changelog: Update.
+* 7b24fc2 Remove empty dirs.
+* 40d1bde linux: Add missing files.
+* 9ca1972 linux: Merge all Linux provided firmwares into one package.
+* 9b42fa0 Add firmware for dabusb, e100, kaweth, mga, qla1280, r128, radeon, tehuti, typhoon drivers
+* ec82083 Add support for subdirectories of /lib/firmware
+* 81f8361 Add support for subdirectories of /lib/firmware
+* 8bd4a02 debian/changelog: Prepare to release (0.14).
+* 481c39d debian/bin/gencontrol.py: Update wording of license warning.
+* ccf03d3 ipw2x00/defines: Fix.
+* 7e1e43b * debian/bin/gencontrol.py: Generate license warning in description. * ipw2x00/defines: Fix long description.
+* 6969014 Only present enduser license during installation.
+* c9840be debian/rules.real: Call dh_link.
+* 4790323 debian/changelog: Prepare to release (0.14).
+* 0aeda08 debian/templates/preinst.license.in: Fix control flow.
+* 1ca414a ipw2x00/defines: Fix.
+* d5c9fec debian/bin/gencontrol.py: Need a Pre-Depends.
+* 64c09fc debian/bin/gencontrol.py: Generate debconf dependency.
+* f73434c debian/changelog: Update.
+* 1e78c07 * Add Intel Pro 2100 firwmare, version 1.3. * Add Intel Pro 2200/2915 firwmare, version 3.0.
+* a3abd67 * debian/bin/gencontrol.py   - Cleanups and updates from linux-2.6.   - Generate license acception prompt. * debian/changelog: Update. * debian/templates/preinst.license.in,   debian/templates/templates.license.in: Add.
+* 70c2e26 * debian/rules: Remove more files. * debian/rules.real: Install debconf support.
+* ba95b58 bnx2/fwcutter/bnx2_fwcutter_2.6.27.c: Add cutter for 2.6.27.
+* 724991e bnx2/fwcutter/Makefile: Generate stripped down definitions.
+* 90902d6 prepare for release
+* 523e15b Update Intel Wireless 3945 firmware, version 15.28.1.6. (closes: #494703)
+* a4816cf Update to 2.6.26-1 (closes: #500692)
+* 4bb128a Make firmware-bnx2 trigger update-initramfs (closes: #494936)
+* 3e5af67 debian/changelog: Prepare to release (0.12).
+* ff19fe7 * debian/changelog: Update. * iwlwifi/defines: Add definition for iwlwifi-4965-2.ucode. * iwlwifi/iwlwifi-4965-1.ucode-228.57.1.21: Add. * iwlwifi/iwlwifi-4965-1.ucode-4.44.1.20: Remove. * iwlwifi/iwlwifi-4965-2.ucode-228.57.2.21: Add.
+* 4956886 debian/rules.defs: Update to 2.6.25-2.
+* 992145f bnx2/fwcutter/bnx2_fwcutter_2.6.26.c: Add cutter for 2.6.26.
+* 0e40e4e bnx2/fwcutter/bnx2_fwcutter.c: Truncate output files.
+* bb83b1e bnx2/fwcutter/Makefile: Fix dependencies.
+* dc2fbc4 bnx2/fwcutter/Makefile: Allow clean without definitions.
+* 89381dd bnx2/fwcutter/bnx2_fwcutter.c: Give informations about written firmware files.
+* 686b2ef iwlwifi/defines, ralink/defines: Update descriptions.
+* 9429857 ralink/defines: Update descriptions.
+* c21d750 ralink/defines: Record firmware versions.
+* e11b376 * debian/changelog: Update. * defines: Remove ipw3945. * ipw3945: Remove.
+* efc4c70 debian/changelog: Prepare to release (0.11).
+* 2872c74 debian/changelog: Update.
+* 56ef650 * debian/changelog: Update. * qlogic/ql2400_fw.bin-4.03.00, qlogic/ql2500_fw.bin-4.03.00: Remove. * qlogic/ql2400_fw.bin-4.04.00, qlogic/ql2500_fw.bin-4.04.00: Add.
+* a3a385f * debian/changelog: Update. * bnx2/bnx2-06-4.0.5.fw, bnx2/bnx2-09-4.0.5.fw: Add. * defines: Enable bnx2.
+* 1fbc038 bnx2: Add.
+* fcb16ea iwlwifi/defines, qlogic/defines: Fix file sections.
+* a25a145 debian/bin/gencontrol.py: Handle files with underscore correctly.
+* 7f4ede4 debian/bin/gencontrol.py: Also handle descriptions of versioned files.
+* a7a057b debian/templates/control.binary.in: Use Homepage field.
+* ee2252f debian/bin/gencontrol.py - Fix files with including dash. - Get version info from config if not included in filename. - Fix firmware file description.
+* e5a6f2d * debian/changelog: Update. * qlogic/defines: Add ql2500_fw.bin. * qlogic/ql2400_fw.bin-4.00.27: Remove. * qlogic/ql2400_fw.bin-4.03.00, qlogic/ql2500_fw.bin-4.03.00: Add.
+* 7020511 * Correct path to initramfs.conf file in postinst. (closes: #432042)
+* bea8bf7 debian/changelog: Prepare to upload (0.10).
+* 3bb43ae debian/changelog: Update.
+* 2ac41c5 * iwlwifi/defines: Drop old variante of firmware. * iwlwifi/iwlwifi-3945.ucode-2.14.4, iwlwifi/iwlwifi-4965.ucode-4.44.15:   Remove.
+* ab3d6ad debian/bin/gencontrol.py, debian/changelog, debian/rules.real: Drop udeb support. Request from d-i team.
+* 1136bc8 debian/changelog: Update.
+* cf51be0 * debian/bin/gencontrol.py: Adopt changes. * debian/rules.defs: Update to 2.6.24-1.
+* 72e6e92 * debian/changelog: Update. * iwlwifi/iwlwifi-4965-1.ucode-4.44.1.18: Remove. * iwlwifi/iwlwifi-4965-1.ucode-4.44.1.20: Add.
+* 918888a Updating to 2.6.23-1.
+* a06afb6 Removing empty line at EOF.
+* 17369c0 Adding Vcs fields in control.
+* 128e941 Uploading 0.9.
+* eb5d54a Merging rt61 and rt73 to ralink as requested by Bastian.
+* a9dc3ad Uploading 0.8.
+* 0066539 Importing rt71 firmware from RT71W_Firmware_V1.8.zip.
+* cafcaf8 Importing rt61 firmware from RT61_Firmware_V1.2.zip.
+* cc84dec Removed some useless whitespaces at EOL and EOF.
+* 3a89220 Bumping package to debhelper 5.
+* 19b18a3 Applying patch from Ben Hutchings <ben@decadent.org.uk> to add ralink rt73 firmware.
+* 6b53ae9 Applying patch from Ben Hutchings <ben@decadent.org.uk> to add ralink rt61 firmware.
+* 34a2021 Check for already included firmware by initramfs-tools own functions (Closes: #440967).
+* 20e4ee6 Updating to 2.6.22-3.
+* f28b4a6 Applying patch from Ben Hutchings <ben@decadent.org.uk> to update gencontrol.py for linux-support-2.6.22-3.
+* de59da1 debian/changelog: Prepare to release (0.7).
+* 354cc5e * debian/changelog: Update. * iwlwifi/defines: Add iwlwifi-3945-1.ucode and iwlwifi-4965-1.ucode. * iwlwifi/iwlwifi-3945-1.ucode-2.14.1.5,   iwlwifi/iwlwifi-4965-1.ucode-4.44.1.18: Add.
+* dedf905 * debian/changelog: Update. * debian/templates/control.binary.in, debian/templates/control.binary.udeb.in:   Drop unnecessary fields. * debian/templates/control.source.in: Set section to non-free/admin.
+* e03cbf3 debian/changelog: Prepare to release (0.6).
+* 4fa2de8 debian/changelog: Update.
+* 19682b8 debian/rules: Update list of control files.
+* 9d27370 ipw3945/defines, iwlwifi/defines: Update descriptions.
+* e42334d debian/templates/control.binary.udeb.in: Drop long description.
+* 194fa93 debian/bin/gencontrol.py: Support packages without long descriptions.
+* 3e0949e debian/bin/gencontrol.py: Indent list.
+* 8c83ecf iwlwifi/LICENSE: Fix line endings.
+* 93b3046 * debian/changelog: Update. * debian/templates/control.source.in: Drop Daniel from uploaders.
+* 0f51987 ipw3945/defines: Drop version.
+* 411cfd4 debian/rules: Update.
+* b2410d1 * debian/bin/gencontrol.py: Export file list. * debian/rules.real: Install files.
+* dc3fe25 iwlwifi/defines: Add.
+* 0c14029 * defines   - Remove iwl3945, iwl4965.   - Add iwlwifi. * iwlwifi: Add. * iwl3945, iwl4965: Remove.
+* 3308a31 qlogic/defines: Update descriptions.
+* b74c411 debian/bin/gencontrol.py: Fix descriptions.
+* 816a6cd qlogic/defines: Add descriptions.
+* 1df6fd7 debian/rules: Add all defines files to the control list.
+* c677e66 qlogic: Mass update of firmware files.
+* b184d93 * qlogic/update.py: Add. * update-firmware.sh: Remove.
+* 094d614 * debian/rules: Don't remove *.install files. * debian/templates/control.binary.in: Add URL.
+* ce205f2 debian/bin/gencontrol.py - Generate contents list. - Find files themself.
+* c69ae36 Added version numbers to long-desc.
+* 57a8b8e Uploading 0.5.
+* b9012df Added iwl4965 firmware, version 4.44.15.
+* 8c3f769 Added iwl3945 firwmare, version 2.14.4.
+* 1a487a8 Updated ipw3945.ucode to version 1.14.2.
+* a716555 svn path=/dists/trunk/firmware-nonfree/; revision=9067
+* f86cc3c Removed whitespaces at EOL
+* 2a0b34e Self-inflicted uploader status, ok'ed by waldi.
+* fc8a276 Build-depend on linux-support-2.6.18-4; closes: #414773.
+* d20d8a5 Prepare for release
+* df67aeb Bump standard to 3.7.2.
+* 2decf43 debian/rules: Fix maintainerclean.
+* 4f30df4 * debian/bin/gencontrol.py: Fix creation of hook. * debian/rules.real: Install hook if necessary.
+* ad8d799 Make initramfs-tools hooks executable
+* f677bf5 Rename qlogic initramfs-tools hook
+* b4db589 Prepare for release
+* 7dc9a55 debian/bin/gencontrol.py, debian/rules: Add linux-support build dependency.
+* 6f7fc11 debian/rules.defs: Use 2.6.17-2.
+* 8d598cb debian/changelog: Prepare to release (0.1).
+* 9736616 debian/templates/control.source.in: Add myself as uploader.
+* 5420215 debian/rules: Add maintainerclean target.
+* 5bca807 debian/templates/copyright.binary.in: Add copyright template.
+* 2baacfe debian/bin/gencontrol.py: Make postinst for initramfs-tools support.
+* 2312ba7 debian/bin/gencontrol.py: Install initramfs-tools hook.
+* d990032 * debian/templates/hook.initramfs-tools.in   - Move from debian/templates/firmware.hook.initramfs-tools.in.   - Use correct substitution.   - Don't check if /lib/firmware is available. * debian/templates/postinst.initramfs-tools.in:   Move from debian/templates/firmware.postinst.initramfs-tools.in.
+* 6ac22f9 debian/bin/gencontrol.py: Make install files generation more generic.
+* 7688ca3 * debian/bin/gencontrol.py: Generate install files. * debian/rules.real: Install everything.
+* 153a3d2 * debian/bin/gencontrol.py: Generate copyright files. * debian/copyright: Remove.
+* a860040 qlogic/LICENSE, qlogic/ql2100_fw.bin, qlogic/ql2200_fw.bin, qlogic/ql2300_fw.bin, qlogic/ql2322_fw.bin, qlogic/ql2400_fw.bin: Add.
+* 782b5ac ipw3945/defines, qlogic/defines: Set uris.
+* 7610e44 ipw3945/LICENSE: Remove dos lineendings.
+* 8727b4e debian/bin/gencontrol.py: - Simplify. - Make support config entry a list.
+* a95b7f6 qlogic/defines: Enable initramfs-tools support.
+* 1872202 * debian/templates/firmware.postinst.initramfs-tools.in:   Move from debian/templates/firmware.postinst.in. * debian/templates/firmware.hook.initramfs-tools.in: Move from initramfs-hook.
+* 7eb9eb6 debian/bin/gencontrol.py: Update.
+* 1cd4fc7 ipw3945/LICENSE, ipw3945/ipw3945.ucode: Add.
+* 2df322c * debian/bin, ipw3945, qlogic: New directory. * debian/bin/gencontrol.py, debian/rules.defs, debian/rules.real: Add. * debian/changelog: Fix package name. * debian/rules: Use linux-2.6 gencontrol support. * debian/templates/control.binary.in, debian/templates/control.binary.udeb.in:   Update. * defines, ipw3945/defines, qlogic/defines: Add. * qlogic-fw: Remove.
+* 67f7859 debian/templates/control.binary.in, debian/templates/control.binary.udeb.in: Update.
+* 1695276 debian/templates/control.source.in: Fix package name.
+* 68eebff debian/templates/firmware.postinst.in: configure is not the only possible command.
+* 94461a0 Add postinst to rebuild the initramfs on installation and upgrade.
+* 8d37032 Use dh_installdocs to install the copyright file.
+* b421117 remove control file. remove debconf dependency. do not put the copyright file into the udebs.
+* 8353627 First shot of a firmware debs/udebs generating package.
